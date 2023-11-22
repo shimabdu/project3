@@ -422,10 +422,32 @@ opacity:.9;
 .postcard:hover .postcard__bar {
   width: 100px;
 }
+@media (max-width: 640px) {
+  .postcard {
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    border: 0.5px solid #f4f4f4;
+    border-radius: 5px;
+    border-radius: 10px;
+    margin: 0 0 2rem 0;
+    overflow: hidden;
+    position: relative;
+    color: #ffffff;
+  }
+  .postcard .postcard__text p{
+    font-size: 14px;
+  
+  }
+  .postcard__text h3 a{
+    font-size: 20px;
+  }
+}
  @media screen and (min-width: 769px) {
   .postcard {
     flex-wrap: inherit;
   }
+
   .postcard .postcard__title {
     font-size: 2rem;
   }
@@ -455,7 +477,7 @@ opacity:.9;
   }
   .postcard:nth-child(2n+0) {
     flex-direction: row;
-    
+   
   }
   .postcard:nth-child(2n+1) {
     flex-direction: row-reverse;
