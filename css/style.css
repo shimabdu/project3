@@ -149,7 +149,7 @@ a{
 
 } 
 .btn:hover{
-    background-color:var(--dark-color);
+    background-color:#ec6d6d;
     color:var(--secondary-color); 
     
 }
@@ -161,6 +161,9 @@ a{
     font-weight: 600; 
     background-color:var(--dark-color);
  
+}
+.carousel-item .carousel-btn:hover{
+  background-color:#ec6d6d;
 }
 .carousel-caption{
     background-color: rgba(255,255, 255, 0.7);
@@ -558,7 +561,7 @@ color: var(--dark-color);
 
 .aside-icon a i:hover{
 
-  color: #e8454585;
+  color:#ec6d6d;
 
 }
  /* //////////////////////////////////////////////////////////////// */
@@ -644,7 +647,7 @@ color: var(--dark-color);
     }
     
     .team .member .member-img .social a:hover {
-      color: var(--dark-color);
+      color:#ec6d6d;
     }
     
     .team .member .member-info {
@@ -693,7 +696,7 @@ color: var(--dark-color);
   color: var(--dark-color);
 }
 .accordion .accordion-item .ff:hover{
-  color: var(--dark-color);
+  color:#ec6d6d;
 }
 
 .accordion .accordion-item .accordion-collapse .show:focus{
