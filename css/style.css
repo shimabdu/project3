@@ -178,7 +178,31 @@ a{
   font-weight: bold;
 }
 
- 
+@media (max-width: 640px) {
+
+.carousel-caption h1 {
+  color:var(--green-color);
+  font-weight: bold;
+  font-size: 20px;
+}
+.carousel-caption p {
+  color:var(--green-color);
+  font-weight: bold;
+  font-size: 12px;
+}
+.carousel-item .carousel-btn{
+  color:var(--secondary-color); 
+    font-weight: 400; 
+    background-color:var(--dark-color);
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10px; 
+} 
+.carousel-inner {
+  height: 75vh;
+}
+}
+
 /* ////////////////////////////////////////////////////// */
 
 
